@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PAMO.MyProfilePage">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label x:Name="Name" Text="{Binding name}"/>
+
+            <Label x:Name="Surname" Text="{Binding surname}"/>
+
+            <Label x:Name="Email" Text="{Binding email}"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PAMO.HomePage">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label x:Name="MainLabel"/>
+
+            <Button Clicked="News_OnClicked"
+                    VerticalOptions="Center"
+                Text="News"/>
+
+            <Button Clicked="Weather_OnClicked"
+                    VerticalOptions="Center"
+                Text="Weather"/>
+
+            <Button Clicked="Profile_OnClicked"
+                    VerticalOptions="Center"
+                Text="My Profile"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
